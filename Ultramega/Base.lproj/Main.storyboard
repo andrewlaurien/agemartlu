@@ -472,43 +472,55 @@
                                             <rect key="frame" x="0.0" y="0.0" width="280" height="137.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Order No. 0993384" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIM-i0-olk">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="Order No. 0993384" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIM-i0-olk">
                                                     <rect key="frame" x="20" y="8" width="144" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                                     <color key="textColor" red="0.1333333333" green="0.46274509800000002" blue="0.72549019609999998" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03-09-16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egn-mp-NOy">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="03-09-16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egn-mp-NOy">
                                                     <rect key="frame" x="20" y="31" width="90" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Item: 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoG-oX-7Ti">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total Item: 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoG-oX-7Ti">
                                                     <rect key="frame" x="20" y="58" width="107" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBC-AT-psL">
-                                                    <rect key="frame" x="185" y="8" width="87" height="88"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vni-Th-K4h">
-                                                    <rect key="frame" x="207" y="104" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="P 2000.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOL-NU-pRc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="P 2000.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOL-NU-pRc">
                                                     <rect key="frame" x="20" y="87" width="125" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.87187924589999999" green="0.28996145709999999" blue="0.3251980096" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pending" translatesAutoresizingMaskIntoConstraints="NO" id="SBC-AT-psL">
+                                                    <rect key="frame" x="185" y="8" width="87" height="79"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="PENDING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vni-Th-K4h">
+                                                    <rect key="frame" x="200" y="93" width="56" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="QIM-i0-olk" firstAttribute="top" secondItem="Y6P-rO-Of1" secondAttribute="topMargin" id="2Ot-EV-5wl"/>
+                                                <constraint firstItem="Vni-Th-K4h" firstAttribute="leading" secondItem="kOL-NU-pRc" secondAttribute="trailing" constant="55" id="2Yp-RI-xqV"/>
+                                                <constraint firstItem="kOL-NU-pRc" firstAttribute="leading" secondItem="Y6P-rO-Of1" secondAttribute="leadingMargin" constant="12" id="3HT-o1-OmW"/>
+                                                <constraint firstItem="egn-mp-NOy" firstAttribute="top" secondItem="QIM-i0-olk" secondAttribute="bottom" constant="2" id="3YM-rv-L0S"/>
+                                                <constraint firstItem="QoG-oX-7Ti" firstAttribute="leading" secondItem="Y6P-rO-Of1" secondAttribute="leadingMargin" constant="12" id="4HZ-bo-1C0"/>
+                                                <constraint firstItem="SBC-AT-psL" firstAttribute="top" secondItem="Y6P-rO-Of1" secondAttribute="topMargin" id="5oo-zy-bbr"/>
+                                                <constraint firstItem="QoG-oX-7Ti" firstAttribute="top" secondItem="egn-mp-NOy" secondAttribute="bottom" constant="6" id="DO8-Li-cjJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Vni-Th-K4h" secondAttribute="trailing" constant="16" id="FMc-31-2hF"/>
                                                 <constraint firstItem="QIM-i0-olk" firstAttribute="leading" secondItem="Y6P-rO-Of1" secondAttribute="leadingMargin" constant="12" id="P6M-5N-anH"/>
+                                                <constraint firstItem="kOL-NU-pRc" firstAttribute="top" secondItem="QoG-oX-7Ti" secondAttribute="bottom" constant="8" id="Swq-li-Y9j"/>
+                                                <constraint firstItem="SBC-AT-psL" firstAttribute="leading" secondItem="QIM-i0-olk" secondAttribute="trailing" constant="21" id="TlN-Pg-yiz"/>
+                                                <constraint firstItem="Vni-Th-K4h" firstAttribute="top" secondItem="SBC-AT-psL" secondAttribute="bottom" constant="6" id="gkf-i3-Zvc"/>
+                                                <constraint firstItem="SBC-AT-psL" firstAttribute="trailing" secondItem="Y6P-rO-Of1" secondAttribute="trailingMargin" id="oDj-GP-K8a"/>
+                                                <constraint firstItem="egn-mp-NOy" firstAttribute="leading" secondItem="Y6P-rO-Of1" secondAttribute="leadingMargin" constant="12" id="wYc-4n-j02"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -562,6 +574,7 @@
         <image name="cart" width="303" height="375"/>
         <image name="categories" width="303" height="375"/>
         <image name="orders" width="303" height="375"/>
+        <image name="pending" width="75" height="75"/>
         <image name="pendingimg" width="757" height="757"/>
         <image name="promomain" width="303" height="375"/>
         <image name="scanner" width="303" height="375"/>
