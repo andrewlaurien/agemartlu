@@ -3,7 +3,7 @@
 import Foundation
 import UIKit
 
-class OrderList:UITableViewCell {
+class OrderList {
     
     
     var orderno: String

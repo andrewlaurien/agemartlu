@@ -40,7 +40,7 @@ class Order: UITableViewController {
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Order Cell", forIndexPath: indexPath) as! OrderCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Order Cell", forIndexPath: indexPath)
 
         // Configure the cell...
         let details = orders[indexPath.row]
@@ -97,41 +97,41 @@ class Order: UITableViewController {
     }
     */
     
-    class OrderCell: UITableViewCell {
-        
-        
-        
-        var details: Order? {
-            didSet {
-                if let o = details {
-                    
-                }
-            }
-        }
-        
-        override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-            super.init(style: style, reuseIdentifier: reuseIdentifier)
-            backgroundColor = UIColor.clearColor()
-            selectionStyle = .None
-            
- 
-        }
-        
-        required init(coder aDecoder: NSCoder) {
-            fatalError("init(coder:) has not been implemented")
-        }
-        
-        override func prepareForReuse() {
-            super.prepareForReuse()
-            
-        }
-        
-        override func layoutSubviews() {
-            super.layoutSubviews()
-          
-        }
-    }
-    
+//    class OrderCell: UITableViewCell {
+//        
+//        
+//        
+//        var details: Order? {
+//            didSet {
+//                if let o = details {
+//                    
+//                }
+//            }
+//        }
+//        
+//        override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+//            super.init(style: style, reuseIdentifier: reuseIdentifier)
+//            backgroundColor = UIColor.clearColor()
+//            selectionStyle = .None
+//            
+// 
+//        }
+//        
+//        required init(coder aDecoder: NSCoder) {
+//            fatalError("init(coder:) has not been implemented")
+//        }
+//        
+//        override func prepareForReuse() {
+//            super.prepareForReuse()
+//            
+//        }
+//        
+//        override func layoutSubviews() {
+//            super.layoutSubviews()
+//          
+//        }
+//    }
+//    
     
 
 }
