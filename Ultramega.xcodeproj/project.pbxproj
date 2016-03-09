@@ -21,6 +21,7 @@
 		92D666211C8ECE7800F9A4FF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D666201C8ECE7800F9A4FF /* Order.swift */; };
 		92D666241C8EDCBC00F9A4FF /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D666231C8EDCBC00F9A4FF /* OrderList.swift */; };
 		92D666261C8FA7E000F9A4FF /* OrderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D666251C8FA7E000F9A4FF /* OrderAdapter.swift */; };
+		92D6662A1C8FE8A100F9A4FF /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D666291C8FE8A100F9A4FF /* OrderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		92D666201C8ECE7800F9A4FF /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		92D666231C8EDCBC00F9A4FF /* OrderList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 		92D666251C8FA7E000F9A4FF /* OrderAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderAdapter.swift; sourceTree = "<group>"; };
+		92D666291C8FE8A100F9A4FF /* OrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				92D666231C8EDCBC00F9A4FF /* OrderList.swift */,
 				92D666251C8FA7E000F9A4FF /* OrderAdapter.swift */,
+				92D666291C8FE8A100F9A4FF /* OrderCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D666141C8D675C00F9A4FF /* Verify.swift in Sources */,
+				92D6662A1C8FE8A100F9A4FF /* OrderCell.swift in Sources */,
 				92D666121C8D5C6600F9A4FF /* Register.swift in Sources */,
 				92D666261C8FA7E000F9A4FF /* OrderAdapter.swift in Sources */,
 				92D666241C8EDCBC00F9A4FF /* OrderList.swift in Sources */,

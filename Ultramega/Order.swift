@@ -4,6 +4,7 @@ import UIKit
 class Order: UITableViewController {
     
     // MARK: Properties 
+    @IBOutlet var ordertableview: UITableView!
     
     var orders: [OrderList] {
         var orderDetails = OrderAdapter.orderDetails()
