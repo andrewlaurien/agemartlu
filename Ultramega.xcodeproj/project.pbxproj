@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92A47EAF1C97EB4A00E1E1E1 /* ultramega_app in Resources */ = {isa = PBXBuildFile; fileRef = 92A47EAE1C97EB4A00E1E1E1 /* ultramega_app */; };
+		92A47EB11C97EBA800E1E1E1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EB01C97EBA800E1E1E1 /* Util.swift */; };
+		92A47EBB1C97EC3700E1E1E1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EB51C97EC3700E1E1E1 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		92A47EBC1C97EC3700E1E1E1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EB71C97EC3700E1E1E1 /* FMDatabaseAdditions.m */; };
+		92A47EBD1C97EC3700E1E1E1 /* fmdb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 92A47EB81C97EC3700E1E1E1 /* fmdb.txt */; };
+		92A47EBE1C97EC3700E1E1E1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EBA1C97EC3700E1E1E1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		92A47EC01C97EED700E1E1E1 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EBF1C97EED700E1E1E1 /* ModelManager.swift */; };
+		92A47EC21C97EFAA00E1E1E1 /* RegistrationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EC11C97EFAA00E1E1E1 /* RegistrationInfo.swift */; };
+		92A47EC51C98EAF700E1E1E1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A47EA91C97E5E300E1E1E1 /* libsqlite3.0.tbd */; };
+		92A47EC71C9906DD00E1E1E1 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EC61C9906DD00E1E1E1 /* Supplier.swift */; };
+		92A47EC91C990A5000E1E1E1 /* SupplierList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EC81C990A5000E1E1E1 /* SupplierList.swift */; };
+		92A47ECB1C992ADB00E1E1E1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47ECA1C992ADB00E1E1E1 /* Item.swift */; };
+		92A47ECD1C992FE200E1E1E1 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47ECC1C992FE200E1E1E1 /* ItemList.swift */; };
+		92A47ECF1C9945C700E1E1E1 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47ECE1C9945C700E1E1E1 /* ProductDetails.swift */; };
+		92A47ED81C9AAC0B00E1E1E1 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A47ED71C9AAC0B00E1E1E1 /* DropDownCell.xib */; };
+		92A47EDC1C9AAC1800E1E1E1 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47ED91C9AAC1800E1E1E1 /* DPDConstants.swift */; };
+		92A47EDD1C9AAC1800E1E1E1 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EDA1C9AAC1800E1E1E1 /* DPDKeyboardListener.swift */; };
+		92A47EDE1C9AAC1800E1E1E1 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EDB1C9AAC1800E1E1E1 /* DPDUIView+Extension.swift */; };
+		92A47EE11C9AAC2300E1E1E1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EDF1C9AAC2300E1E1E1 /* DropDown.swift */; };
+		92A47EE21C9AAC2300E1E1E1 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A47EE01C9AAC2300E1E1E1 /* DropDownCell.swift */; };
 		92B8D63C1C8D278200111D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D63B1C8D278200111D32 /* AppDelegate.swift */; };
 		92B8D63E1C8D278200111D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D63D1C8D278200111D32 /* ViewController.swift */; };
 		92B8D6431C8D278200111D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B8D6421C8D278200111D32 /* Assets.xcassets */; };
@@ -35,6 +55,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92A47EA91C97E5E300E1E1E1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		92A47EAE1C97EB4A00E1E1E1 /* ultramega_app */ = {isa = PBXFileReference; lastKnownFileType = file; name = ultramega_app; path = Ultramega/ultramega_app; sourceTree = "<group>"; };
+		92A47EB01C97EBA800E1E1E1 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		92A47EB31C97EC3600E1E1E1 /* Ultramega-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ultramega-Bridging-Header.h"; sourceTree = "<group>"; };
+		92A47EB41C97EC3700E1E1E1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Ultramega/FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		92A47EB51C97EC3700E1E1E1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Ultramega/FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		92A47EB61C97EC3700E1E1E1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Ultramega/FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		92A47EB71C97EC3700E1E1E1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Ultramega/FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		92A47EB81C97EC3700E1E1E1 /* fmdb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fmdb.txt; path = Ultramega/FMDB/fmdb.txt; sourceTree = "<group>"; };
+		92A47EB91C97EC3700E1E1E1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Ultramega/FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		92A47EBA1C97EC3700E1E1E1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Ultramega/FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		92A47EBF1C97EED700E1E1E1 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		92A47EC11C97EFAA00E1E1E1 /* RegistrationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationInfo.swift; sourceTree = "<group>"; };
+		92A47EC61C9906DD00E1E1E1 /* Supplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		92A47EC81C990A5000E1E1E1 /* SupplierList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplierList.swift; sourceTree = "<group>"; };
+		92A47ECA1C992ADB00E1E1E1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		92A47ECC1C992FE200E1E1E1 /* ItemList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		92A47ECE1C9945C700E1E1E1 /* ProductDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		92A47ED71C9AAC0B00E1E1E1 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownCell.xib; path = Ultramega/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		92A47ED91C9AAC1800E1E1E1 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = Ultramega/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		92A47EDA1C9AAC1800E1E1E1 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = Ultramega/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		92A47EDB1C9AAC1800E1E1E1 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "Ultramega/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		92A47EDF1C9AAC2300E1E1E1 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = Ultramega/src/DropDown.swift; sourceTree = "<group>"; };
+		92A47EE01C9AAC2300E1E1E1 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = Ultramega/src/DropDownCell.swift; sourceTree = "<group>"; };
 		92B8D6381C8D278200111D32 /* Ultramega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ultramega.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B8D63B1C8D278200111D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B8D63D1C8D278200111D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A47EC51C98EAF700E1E1E1 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +119,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92A47EB21C97EC1600E1E1E1 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				92A47EB41C97EC3700E1E1E1 /* FMDatabase.h */,
+				92A47EB51C97EC3700E1E1E1 /* FMDatabase.m */,
+				92A47EB61C97EC3700E1E1E1 /* FMDatabaseAdditions.h */,
+				92A47EB71C97EC3700E1E1E1 /* FMDatabaseAdditions.m */,
+				92A47EB81C97EC3700E1E1E1 /* fmdb.txt */,
+				92A47EB91C97EC3700E1E1E1 /* FMResultSet.h */,
+				92A47EBA1C97EC3700E1E1E1 /* FMResultSet.m */,
+				92A47EB31C97EC3600E1E1E1 /* Ultramega-Bridging-Header.h */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		92A47ED01C9AA9A000E1E1E1 /* cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				92A47EDF1C9AAC2300E1E1E1 /* DropDown.swift */,
+				92A47EE01C9AAC2300E1E1E1 /* DropDownCell.swift */,
+				92A47ED91C9AAC1800E1E1E1 /* DPDConstants.swift */,
+				92A47EDA1C9AAC1800E1E1E1 /* DPDKeyboardListener.swift */,
+				92A47EDB1C9AAC1800E1E1E1 /* DPDUIView+Extension.swift */,
+				92A47ED71C9AAC0B00E1E1E1 /* DropDownCell.xib */,
+			);
+			name = cocoapod;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		92B8D62F1C8D278200111D32 = {
 			isa = PBXGroup;
 			children = (
+				92A47EB21C97EC1600E1E1E1 /* Third Party */,
+				92A47EAE1C97EB4A00E1E1E1 /* ultramega_app */,
+				92A47EA91C97E5E300E1E1E1 /* libsqlite3.0.tbd */,
 				92B8D63A1C8D278200111D32 /* Ultramega */,
 				92B8D64F1C8D278200111D32 /* UltramegaTests */,
 				92B8D6391C8D278200111D32 /* Products */,
@@ -95,6 +172,7 @@
 		92B8D63A1C8D278200111D32 /* Ultramega */ = {
 			isa = PBXGroup;
 			children = (
+				92A47ED01C9AA9A000E1E1E1 /* cocoapod */,
 				92D666221C8ED13900F9A4FF /* Model */,
 				92D6660C1C8D42DA00F9A4FF /* Classes */,
 				92B8D63B1C8D278200111D32 /* AppDelegate.swift */,
@@ -125,6 +203,9 @@
 				92D6661A1C8E798200F9A4FF /* Pending.swift */,
 				92D6661C1C8E7C6E00F9A4FF /* MainActivity.swift */,
 				92D666201C8ECE7800F9A4FF /* Order.swift */,
+				92A47EC61C9906DD00E1E1E1 /* Supplier.swift */,
+				92A47ECA1C992ADB00E1E1E1 /* Item.swift */,
+				92A47ECE1C9945C700E1E1E1 /* ProductDetails.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -132,9 +213,14 @@
 		92D666221C8ED13900F9A4FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92A47EB01C97EBA800E1E1E1 /* Util.swift */,
 				92D666231C8EDCBC00F9A4FF /* OrderList.swift */,
 				92D666251C8FA7E000F9A4FF /* OrderAdapter.swift */,
 				92D666291C8FE8A100F9A4FF /* OrderCell.swift */,
+				92A47EBF1C97EED700E1E1E1 /* ModelManager.swift */,
+				92A47EC11C97EFAA00E1E1E1 /* RegistrationInfo.swift */,
+				92A47EC81C990A5000E1E1E1 /* SupplierList.swift */,
+				92A47ECC1C992FE200E1E1E1 /* ItemList.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -189,6 +275,7 @@
 				TargetAttributes = {
 					92B8D6371C8D278200111D32 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YS9J4MHPV3;
 					};
 					92B8D64B1C8D278200111D32 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -220,9 +307,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A47ED81C9AAC0B00E1E1E1 /* DropDownCell.xib in Resources */,
 				92D666191C8E57D600F9A4FF /* Main.storyboard in Resources */,
 				92B8D6461C8D278200111D32 /* LaunchScreen.storyboard in Resources */,
 				92B8D6431C8D278200111D32 /* Assets.xcassets in Resources */,
+				92A47EAF1C97EB4A00E1E1E1 /* ultramega_app in Resources */,
+				92A47EBD1C97EC3700E1E1E1 /* fmdb.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,16 +330,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A47ECB1C992ADB00E1E1E1 /* Item.swift in Sources */,
 				92D666141C8D675C00F9A4FF /* Verify.swift in Sources */,
+				92A47EC71C9906DD00E1E1E1 /* Supplier.swift in Sources */,
+				92A47EDD1C9AAC1800E1E1E1 /* DPDKeyboardListener.swift in Sources */,
+				92A47EE21C9AAC2300E1E1E1 /* DropDownCell.swift in Sources */,
 				92D6662A1C8FE8A100F9A4FF /* OrderCell.swift in Sources */,
+				92A47EBB1C97EC3700E1E1E1 /* FMDatabase.m in Sources */,
 				92D666121C8D5C6600F9A4FF /* Register.swift in Sources */,
+				92A47ECF1C9945C700E1E1E1 /* ProductDetails.swift in Sources */,
 				92D666261C8FA7E000F9A4FF /* OrderAdapter.swift in Sources */,
+				92A47EDC1C9AAC1800E1E1E1 /* DPDConstants.swift in Sources */,
+				92A47EBC1C97EC3700E1E1E1 /* FMDatabaseAdditions.m in Sources */,
+				92A47EC21C97EFAA00E1E1E1 /* RegistrationInfo.swift in Sources */,
 				92D666241C8EDCBC00F9A4FF /* OrderList.swift in Sources */,
+				92A47ECD1C992FE200E1E1E1 /* ItemList.swift in Sources */,
+				92A47EDE1C9AAC1800E1E1E1 /* DPDUIView+Extension.swift in Sources */,
 				92D666211C8ECE7800F9A4FF /* Order.swift in Sources */,
 				92B8D63E1C8D278200111D32 /* ViewController.swift in Sources */,
+				92A47EC01C97EED700E1E1E1 /* ModelManager.swift in Sources */,
+				92A47EBE1C97EC3700E1E1E1 /* FMResultSet.m in Sources */,
+				92A47EB11C97EBA800E1E1E1 /* Util.swift in Sources */,
+				92A47EE11C9AAC2300E1E1E1 /* DropDown.swift in Sources */,
 				92D6661B1C8E798200F9A4FF /* Pending.swift in Sources */,
 				92D666161C8D731A00F9A4FF /* Registration.swift in Sources */,
 				92D6661D1C8E7C6E00F9A4FF /* MainActivity.swift in Sources */,
+				92A47EC91C990A5000E1E1E1 /* SupplierList.swift in Sources */,
 				92B8D63C1C8D278200111D32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,10 +483,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ultramega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epayvenue.Ultramega;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ultramega-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -388,10 +498,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ultramega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.epayvenue.Ultramega;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ultramega-Bridging-Header.h";
 			};
 			name = Release;
 		};

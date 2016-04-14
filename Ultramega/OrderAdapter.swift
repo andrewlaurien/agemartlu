@@ -29,7 +29,7 @@ class OrderAdapter{
         orders.append(OrderList(orderedno: "42320383", ordereddate: "03-09-16", orderedamount: "P 50.00", imageName: "Pending"))
         orders.append(OrderList(orderedno: "42320343", ordereddate: "03-09-16", orderedamount: "P 60.00", imageName: "Pending"))
         
-        return OrderAdapter(named: "iDevices", includeOrder: orders)
+        return OrderAdapter(named: "order", includeOrder: orders)
     }
     
     
